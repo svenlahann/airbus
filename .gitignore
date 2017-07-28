@@ -1,0 +1,15 @@
+### system
+.DS_Store
+Thumbs.db
+ubuntu*
+
+### ide
+.nbproject
+.idea
+*.sublime-workspace
+
+### vagrant
+.vagrant/
+Vagrantfile
+environment/
+log/

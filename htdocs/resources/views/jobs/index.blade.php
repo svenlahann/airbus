@@ -28,6 +28,7 @@
                         <th>User</th>
                         <th>Active</th>
                         <th></th>
+                        <th></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -50,10 +51,12 @@
                             </td>
                             <td><a href="/jobs/{{$job->id}}/delete"><i
                                             class="glyphicon glyphicon-trash"></i></a></td>
+                            <td><a href="#" class="btn btn-success btn-xs btn-execute">Go</a></td>
                         </tr>
                     @endforeach
                     </tbody>
                 </table>
             </div>
         </div>
+      </div>
 @endsection
